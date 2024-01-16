@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/danbordakov/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.45.56
 
-Frontend https://...
+Frontend https://pr15.bordakov.nomoredomainsmonster.ru/
 
-Backend https://...
+Backend https://api.pr15.bordakov.nomoredomainsmonster.ru/
