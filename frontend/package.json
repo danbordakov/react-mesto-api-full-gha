@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && scp -r ./build/* bordakov_dan@158.160.45.56:/home/bordakov_dan/frontend"
+    "deploy": "npm run build && scp -r ./build/* bordakov_dan@158.160.45.56:/home/bordakov_dan/react-mesto-api-full-gha/frontend"
   },
   "eslintConfig": {
     "extends": [
