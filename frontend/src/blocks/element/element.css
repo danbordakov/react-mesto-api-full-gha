@@ -1,0 +1,10 @@
+.element {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 282px;
+  display: grid;
+  grid-template-rows: auto 40px 40px;
+  grid-template-columns: 240px auto;
+  margin: 0 auto;
+  position: relative;
+}

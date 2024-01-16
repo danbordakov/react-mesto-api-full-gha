@@ -1,0 +1,13 @@
+.element__like-counter {
+  margin: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  position: absolute;
+  width: 22px;
+  height: 13px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 5px;
+}

@@ -1,0 +1,10 @@
+.register__footer_link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.register__footer_link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

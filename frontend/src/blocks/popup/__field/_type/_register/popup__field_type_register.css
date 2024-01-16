@@ -1,0 +1,9 @@
+.popup__field_type_register {
+  background-color: black;
+  border-bottom: 1px solid white;
+  color: white
+}
+
+.popup__field_type_register:first-of-type {
+  margin-bottom: 30px;
+}
