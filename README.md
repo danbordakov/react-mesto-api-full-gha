@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.45.56
+IP 158.160.45.56
 
 Frontend https://pr15.bordakov.nomoredomainsmonster.ru/
 

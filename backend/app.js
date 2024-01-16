@@ -3,13 +3,13 @@ const mongoose = require("mongoose");
 const { celebrate, Joi } = require("celebrate");
 const cookieParser = require("cookie-parser");
 const { errors } = require("celebrate");
+const cors = require("cors");
 const userRouter = require("./routes/users");
 const cardRouter = require("./routes/cards");
 const { login, createUser } = require("./controllers/users");
 require("dotenv").config();
 const auth = require("./middlewares/auth");
 const NotFoundError = require("./errors/not-found-error");
-const cors = require("cors");
 const { requestLogger, errorLogger } = require("./middlewares/logger");
 
 const { PORT = 3000, DB_PATH = "mongodb://127.0.0.1:27017/mestodb" } =
