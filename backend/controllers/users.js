@@ -1,3 +1,5 @@
+require("dotenv").config();
+const { NODE_ENV, JWT_SECRET } = process.env;
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { HTTP_STATUS_BAD_REQUEST } = require("http2").constants;
@@ -126,9 +128,13 @@ module.exports.login = async (req, res, next) => {
     if (!matched) {
       throw new UnauthorizedError("Неправильные почта или пароль");
     }
-    const token = jwt.sign({ _id: user._id }, "secret-key", {
-      expiresIn: "7d",
-    });
+    const token = jwt.sign(
+      { _id: user._id },
+      NODE_ENV === "production" ? JWT_SECRET : "secret-key",
+      {
+        expiresIn: "7d",
+      }
+    );
     res.cookie("token", token, {
       maxAge: 604800000,
       httpOnly: true,
